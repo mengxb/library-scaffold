@@ -1,7 +1,7 @@
-#library scaffold
+# library scaffold
 Used to build javascript library for Both Browser and Node
 
-##How to use in browser
+## How to use in browser
 ```html
 <html>
   <body>
