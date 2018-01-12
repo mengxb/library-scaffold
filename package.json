@@ -1,0 +1,39 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Utility library",
+  "main": "lib/library.min.js",
+  "scripts": {
+    "build:prod": "webpack --env build --config build/webpack.config.js && npm run test",
+    "build:dev": "webpack --progress --colors --watch --env dev --config build/webpack.config.js",
+    "dev": "webpack-dev-server --open --config build/webpack.config.js",
+    "test": "mocha --require babel-core/register --colors ./test/*.spec.js",
+    "test:watch": "mocha --require babel-core/register --colors -w ./test/*.spec.js"
+  },
+  "author": "lego-web@dev.qiyi.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^4.1.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1",
+    "yargs": "^10.1.1"
+  },
+  "keywords": [
+    "utility",
+    "library"
+  ]
+}
