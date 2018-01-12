@@ -1,7 +1,7 @@
 {
-  "name": "library",
+  "name": "library-scaffold",
   "version": "1.0.0",
-  "description": "Utility library",
+  "description": "Utility library scaffold",
   "main": "lib/library.min.js",
   "scripts": {
     "build:prod": "webpack --env build --config build/webpack.config.js && npm run test",
@@ -34,6 +34,7 @@
   },
   "keywords": [
     "utility",
-    "library"
+    "library",
+    "scaffold"
   ]
 }

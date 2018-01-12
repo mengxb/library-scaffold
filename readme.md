@@ -1,7 +1,7 @@
 # library scaffold
 Used to build javascript library for Both Browser and Node
 
-## How to use in browser
+## How to use library in browser
 ```html
 <html>
   <body>
@@ -10,7 +10,7 @@ Used to build javascript library for Both Browser and Node
 </html>
 ```
 
-## How to use in Node
+## How to use library in Node
 ```javascript
 import {something} from 'library.js'
 ```
@@ -25,5 +25,5 @@ npm run test //执行测试用例
 ```
 
 
-## How to write test spec
+## How to write test spec for library
 > [点击参考date.spec.js](./test/date.spec.js)
